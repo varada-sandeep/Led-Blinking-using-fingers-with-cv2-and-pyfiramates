@@ -1,8 +1,8 @@
-import pyfirmata
+import pyfirmata2
 
-comport = "COM17"
+comport = "COM11"
 
-board = pyfirmata.Arduino(comport)
+board = pyfirmata2.Arduino(comport)
 
 
 led1 = board.get_pin("d:3:o")
